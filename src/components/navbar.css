@@ -24,7 +24,7 @@
    display: flex;
     height: auto;
     width: fit-content;
-    transform: translateX(103vw);
+    transform: translateX(105vw);
     top: 4rem;
     padding: 0 2rem;
     background-color: var(--mainClr);
@@ -35,7 +35,7 @@
 }
 .header_nav .responsive_header
 {  
-    transform: translateX(-16rem);
+    transform: translateX(-18.5rem);
     background-color: var(--mainClr);
     color: var(--textClr);
     z-index: 2;
@@ -53,6 +53,23 @@ text-align: center;
     text-decoration: none;
     font-size: 1.5rem;
     
+}
+@media screen and (max-width: 700px) {
+  .header_nav .responsive_header
+{  
+    transform: translateX(-18.5rem);
+
+    } 
+  
+}
+
+@media screen and (max-width: 700px) {
+  .header_nav 
+{  
+  transform: translateX(115vw);
+
+    } 
+  
 }
 /* nav a:hover
 {
