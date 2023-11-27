@@ -1,0 +1,25 @@
+
+ [
+    {
+    "id" :1,
+    "name" : "the Empress.",
+    "card": "/randomImages/1.jpg",
+    "info":[ "Key Words: Scorpio; death and resurrection;",
+     "transformation: scorpion, the card Death does not mean physical death.",
+     "It generally points to radical external transformation."]
+    
+},
+{
+    "id" :2,
+    "name" : "the Lovers",
+    "card": "/randomImages/2.jpg",
+    "info": "the lovers. in love"
+},
+{
+    "id" :3,
+    "name" : "Queen of Wands.",
+    "card": "/randomImages/3.jpg",
+    "info": "the Queen of wands showing her wand"
+}
+   
+    ]

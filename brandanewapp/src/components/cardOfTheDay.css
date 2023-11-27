@@ -1,0 +1,135 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    /* width: 100vw; 
+    height: 100vh;  */
+    background: #030568;
+    /* margin-top: 2.5rem;  */
+    background-image: url(../img/stars.png);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+   } 
+#image_shower
+{
+    display: flex;
+    width: 11rem;
+    height: 17rem;
+    border-radius: 8px;
+    
+}
+.statement
+{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-left: -12rem;
+    margin-top: 3rem;
+    width: 35rem;
+    
+    background-color: #ffffff7a;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px 5px #ffffffb0;
+}
+/* @font-face {
+    font-family: myFont;
+    src: url(/assets/Opsi.ttf);
+} */
+
+h1
+{
+    display: flex;
+font-family: myFont;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: #f1a839f5;
+  
+    margin-top: 1rem;
+    font-size: 2rem;
+ }
+
+
+#btn
+{
+    font-family: myFont;
+    margin-top: 4rem;
+  margin-left: -25%;
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    /* align-items: center; */
+    /* top: 150px; */
+    color: rgb(241, 181, 13);
+    width: 17rem;
+    background: #b47d06c5;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 5px #fff;
+    font-size: 2rem;
+}
+#btn:hover{
+    scale: 1.1;
+    box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.7);
+    border: 3px solid #cc9a12;
+}
+/* .banner
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    width: 100vw;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(10, 11, 99);
+    background: linear-gradient(#ffffff9f, #b38507e0);
+    font-size: 2rem;
+    border: 2px solid #f3a412;
+    margin-bottom: .5rem;
+    box-shadow: 0 0 15px #fff;
+} */
+#container
+{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* position: relative; */
+    margin: 40vw;
+    padding: 0;
+    margin-top: 9rem;
+    /* background: #fff; */
+    height: 17rem;
+    width: 11rem;
+    box-shadow: 0 0 15px 5px #99d9e9;
+    border-radius: 8px;
+    
+   
+}
+#inner_container
+{
+    animation: spin 2s linear 2s ;
+   filter: brightness(130%);
+}
+#inner_container:hover
+{
+   scale: 2;
+   margin-top: 6rem;
+}
+
+@keyframes spin {
+    0%{
+        rotate: 0deg;
+        
+        }
+    100%{
+        rotate: 7000deg;
+       
+        }
+    
+}
