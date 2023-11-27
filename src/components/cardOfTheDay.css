@@ -111,15 +111,16 @@ font-family: myFont;
     
    
 }
-#inner_container
-{
+#inner_container {
     animation: spin 2s linear 2s ;
    filter: brightness(130%);
+  
 }
 #inner_container:hover
 {
    scale: 2;
    margin-top: 6rem;
+
 }
 
 @keyframes spin {

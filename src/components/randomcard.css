@@ -1,23 +1,29 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-  
+}
+  body{
+   width: 100vm;
+
+  }
 
 
 .container
 {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: auto;
-    height: 32rem;
-    margin-top: 4rem;
-    margin-left: 40%;
-    /* border: 5px solid #fdfcfc; */
+    flex-direction: column;  
+     top: 2em;
+    height: 30em;
+    margin-top: 4em;
     box-shadow: 0 0 15px rgba(252, 252, 253, 0.418);
     background: #0505f815;
-    padding: 0;
+    padding-top: 3em;
 }
 
 
@@ -29,9 +35,9 @@
 .name
 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #fff;
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
  
 }
 .info
@@ -40,9 +46,9 @@
     text-align: center;
    justify-content: center;
     flex-wrap: wrap;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #fff;
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
     width: 20rem;
 }
 
@@ -54,29 +60,29 @@
     margin-top: -4rem;
    filter: brightness(130%); 
    background-image: url(/src/randomImages/default2.jpg);
-    background-size: 200px;
-    height: 290px;
-    width: 200px;
+    background-size: 12.5em;
+  
     animation: spin 2s linear 2s  ;
-    height: 18.5rem;
-    width: 12.2rem;
+    height: 18.5em;
+    width: 12.2em;
     box-shadow: 0 0 15px 5px #99d9e9;
     border-radius: 8px;
     
  } 
 
 
-.card
+.container .inner .card
 {
    
-    height: 18.5rem;
-    width: 12.2rem;
+    height: 26em;
+    border-radius: 17px;
+    
    
 }
  .card:hover
 {
    scale: 1.5;
-   margin-top: 5rem;
+   margin-top: 5em;
    
 } 
 
@@ -95,7 +101,7 @@
 {
 position: relative;
     
-    margin-top: 1rem;
+    margin-top: .5em;
 
     display: flex;
    justify-content: center;
@@ -118,7 +124,7 @@ position: relative;
     align-items: center;
     justify-content: center;
     
-    margin-top: 2rem;
+    margin-top: .3em;
     width: 20rem;
     color: #fff;
     background-color: #ffffff7a;
