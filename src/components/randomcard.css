@@ -33,11 +33,10 @@
   }
 
 
-/* .banner
+ .banner
 {
-    margin-top: auto;
-    left: 10px;
-}*/
+   font-size: 1em;
+}
 .name
 {
     text-align: center;
