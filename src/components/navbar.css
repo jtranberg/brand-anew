@@ -58,19 +58,14 @@ text-align: center;
   .header_nav .responsive_header
 {  
     transform: translateX(-18.5rem);
-
-    } 
-  
-}
-
-@media screen and (max-width: 700px) {
-  .header_nav 
+} 
+    .header_nav 
 {  
   transform: translateX(115vw);
-
-    } 
-  
+} 
 }
+
+
 /* nav a:hover
 {
     color: var(--secondaryClr);

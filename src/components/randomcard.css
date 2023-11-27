@@ -25,6 +25,12 @@
     background: #0505f815;
     padding-top: 3em;
 }
+@media screen and (max-width: 700px) {
+    .container
+  {  
+    margin-top: auto;  } 
+
+  }
 
 
 /* .banner
