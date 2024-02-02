@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/socials.css"
 import  "../components/products.css"
-
+import {Link} from "react-router-dom"
 
 class Socials extends React.Component {
   render() {
@@ -20,8 +20,8 @@ class Socials extends React.Component {
                 <img   class="thumb1" id="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-ZS35-j1ASubzUFCsCuFKZBjBaQ6ZhLlB8XIXR3iNf8UTfkZ1nsKKzfexWg7wFbZFxg&usqp=CAU" alt="Crystals" /></a>
            </div>
            <div class="card">Candles:Magical or Scented
-            <a  href="/candles" rel="noopener noreferrer">
-                <img   class="thumb1" id="pic" src="https://m.media-amazon.com/images/I/71+6fqol6OL._AC_UL320_.jpg" alt="Candles" /></a>
+            <Link to="/candles" rel="noopener noreferrer">
+                <img   class="thumb1" id="pic" src="https://m.media-amazon.com/images/I/71+6fqol6OL._AC_UL320_.jpg" alt="Candles" /></Link>
            </div>
            <div class="card">Suppliments:For A Better Inner Being
             <a  href="/supplements" rel="noopener noreferrer" >
