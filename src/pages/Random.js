@@ -20,7 +20,7 @@ export function FetchAPI() {
   };
   return (
     <div>
-      <h1 className="banner">InsightIn To Your Inner Being</h1>
+      <h1 className="banner">Insight InTo Your Inner Being</h1>
 
       <div id="container" className="container">
         <div className="inner" key={data.id}>

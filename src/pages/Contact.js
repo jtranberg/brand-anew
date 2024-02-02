@@ -5,6 +5,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
+        <h1 className="banner">Contact to aid your Inner Being</h1>
         <div class="contact">
       <h1 className="title">We Love Hearing from You.</h1>
     </div>

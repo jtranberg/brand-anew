@@ -5,6 +5,7 @@ class Socials extends React.Component {
   render() {
     return (
         <div>
+          <h1 className="banner">Socials to connect to your Inner Being</h1>
           <div class="icons">
     <div class="socials">
     <a title="Youtube" class="youtube" href="https://www.youtube.com/@kerritranberg6254" rel="noreferrer" target="_blank"></a>

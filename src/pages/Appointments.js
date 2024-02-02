@@ -8,7 +8,7 @@ class Appointments extends  React.Component {
   return (
     <div className="App">
 
-<h1 className="banner">The Portal To Your Inner Being</h1>
+<h1 className="banner">Book the appoint to find Your Inner Being</h1>
     <div className="widget" >
       <InlineWidget url="https://calendly.com/loladusk"  />
     </div></div>
