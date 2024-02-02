@@ -3,7 +3,8 @@ import { InlineWidget } from "react-calendly";
 import "../components/appointments.css"
 
 
-const App = () => {
+class Appointments extends  React.Component {
+  render(){
   return (
     <div className="App">
 
@@ -13,5 +14,5 @@ const App = () => {
     </div></div>
   );
 };
-
-export default App;
+}
+export default Appointments;

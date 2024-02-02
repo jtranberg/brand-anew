@@ -11,7 +11,10 @@ import Candles from "./pages/Candles";
 import  { FetchAPI } from "./pages/Random";
 import "./style.css";
 import "./index";
-
+import Supplements from './pages/supplements';
+import Somavedic from "./pages/Somavedic";
+import Emf from "./pages/Emf";
+import Crystals from "./pages/Crystals";
 
 
 
@@ -33,6 +36,10 @@ function App() {
       <Route  path="/appointments" Component={Appointments}/>
       <Route  path="/products" Component={Products}/> 
       <Route  path="/candles" Component={Candles}/> 
+      <Route  path="/supplements" Component={Supplements}/> 
+      <Route  path="/somavedic" Component={Somavedic}/> 
+      <Route  path="/emf" Component={Emf}/> 
+      <Route  path="/crystals" Component={Crystals}/>  
       </Routes>
       </Router>
     </div>
