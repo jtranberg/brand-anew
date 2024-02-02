@@ -2,6 +2,8 @@ import React from "react";
 import "../components/socials.css"
 import  "../components/products.css"
 import "./Candles"
+import {Link} from "react-router-dom"
+
 
 class Products extends React.Component {
   render() {
@@ -20,8 +22,8 @@ class Products extends React.Component {
                 <img   className="thumb1" id="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-ZS35-j1ASubzUFCsCuFKZBjBaQ6ZhLlB8XIXR3iNf8UTfkZ1nsKKzfexWg7wFbZFxg&usqp=CAU" alt="Crystals" /></a>
            </div>
            <div className="card">Candles:Magical or Scented
-            <a  href="/Candles" >
-                <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/71+6fqol6OL._AC_UL320_.jpg" alt="Candles" /></a>
+            <  Link to="/Candles" >
+                <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/71+6fqol6OL._AC_UL320_.jpg" alt="Candles" /></Link>
            </div>
            <div className="card">Suppliments:For A Better Inner Being
             <a  href="/supplements"  >

@@ -1,16 +1,17 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import  { FetchAPI } from "./pages/Random";
-import "./style.css";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import "./index";
 import Navbar from "./components/navbar";
 import Appointments from "./pages/Appointments";
 import Socials from "./pages/Socials";
 import Products from "./pages/Products";
 import Candles from "./pages/Candles";
+import  { FetchAPI } from "./pages/Random";
+import "./style.css";
+import "./index";
+
 
 
 
