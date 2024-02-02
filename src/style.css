@@ -44,10 +44,8 @@
     font-family: myFont;
     left: 32.5vw;
     position:absolute;
- 
     top: 180px;
-  
-   font-size: 2.5rem;
+    font-size: 2.5rem;
     color: #fff;
     text-shadow: 0 0 10px #e5e90e;
     z-index: 2;

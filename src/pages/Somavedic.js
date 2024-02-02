@@ -5,8 +5,8 @@ class Somavedic extends React.Component{
         return(
             <div>
                 <div className="card"> Scented Candles: Fire for your Inner Being
-        <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/search?ie=UTF8&tag=brandanew-20&linkCode=ur2&linkId=761157fc8a49cfac385f65d490fca9de&camp=1789&creative=9325&index=hpc&keywords=Candles,scented ">
-            <img className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/81FLPQ4ZI7L._AC_UL320_.jpg" alt="link"/></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://somavedic.ca/collections/all ">
+            <img className="thumb1" id="pic" src="https://somavedic.ca/cdn/shop/products/Sky_540x_5ed71b18-9d1b-49f3-80ef-5516ab2f72e9_400x.jpg?v=1624104654" alt="link"/></a>
         </div>
             </div>
         )

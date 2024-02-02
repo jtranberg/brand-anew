@@ -16,10 +16,10 @@
 {
     border: 1px solid #fff;
     box-shadow: 0 0 15px #fff;
-height: 100px;
-width: 100px;
-margin: 25px;
-border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    border-radius: 8px;
 }
 
 .card    /* outer container*/
