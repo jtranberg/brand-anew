@@ -10,7 +10,7 @@ import Navbar from "./components/navbar";
 import Appointments from "./pages/Appointments";
 import Socials from "./pages/Socials";
 import Products from "./pages/Products";
-import Candles from "./pages/candles/Candles";
+import Candles from "./pages/Candles";
 
 
 
@@ -31,7 +31,7 @@ function App() {
       <Route  path="/socials" Component={Socials}/>
       <Route  path="/appointments" Component={Appointments}/>
       <Route  path="/products" Component={Products}/> 
-      <Route  path="/candles/candles" Component={Candles}/> 
+      <Route  path="/candles" Component={Candles}/> 
       </Routes>
       </Router>
     </div>

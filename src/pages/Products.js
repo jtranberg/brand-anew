@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/socials.css"
 import  "../components/products.css"
-
+import "./Candles"
 
 class Products extends React.Component {
   render() {
@@ -12,30 +12,30 @@ class Products extends React.Component {
 
     <div className="thumbnails">
             <div className="card">Somavedic:Frequency generator
-            <a  href="/somavedic" rel="noopener noreferrer">
+            <a  href="/somavedic" >
                 <img   className="thumb1" id="pic" src="https://somavedic.ca/cdn/shop/products/Sky_540x_5ed71b18-9d1b-49f3-80ef-5516ab2f72e9_400x.jpg?v=1624104654"  alt="Somavedic" /></a>
            </div> 
            <div className="card" >Crystals CLeansing and Regenerating
-            <a  href="/crystals" rel="noopener noreferrer">
+            <a  href="/crystals" >
                 <img   className="thumb1" id="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-ZS35-j1ASubzUFCsCuFKZBjBaQ6ZhLlB8XIXR3iNf8UTfkZ1nsKKzfexWg7wFbZFxg&usqp=CAU" alt="Crystals" /></a>
            </div>
            <div className="card">Candles:Magical or Scented
-            <a  href="./candles/Candles" rel="noopener noreferrer">
+            <a  href="/Candles" >
                 <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/71+6fqol6OL._AC_UL320_.jpg" alt="Candles" /></a>
            </div>
            <div className="card">Suppliments:For A Better Inner Being
-            <a  href="/supplements" rel="noopener noreferrer" >
+            <a  href="/supplements"  >
             <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/51YSRYZ66sL._AC_UL320_.jpg" alt="Supplements" /></a>
            </div>
            <div className="card">EMF:
            For A Better Inner Being
-            <a  href="/emf" rel="noopener noreferrer">
+            <a  href="/emf" >
                 <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/617uNoQtDwL._AC_UY218_.jpg" alt="EMF" /></a>
            </div>
     </div>
 <section className="paragraph">
     
-        "These products are wht we recomend"
+        "These products are what we recomend"
     </section>
         </div>
     )
