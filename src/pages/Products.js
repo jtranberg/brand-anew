@@ -14,11 +14,11 @@ class Products extends React.Component {
 
     <div className="thumbnails">
             <div className="card">Somavedic:Frequency generator
-            <Link to="/somavedic" >
+            <Link to="/Somavedic" >
                 <img   className="thumb1" id="pic" src="https://somavedic.ca/cdn/shop/products/Sky_540x_5ed71b18-9d1b-49f3-80ef-5516ab2f72e9_400x.jpg?v=1624104654"  alt="Somavedic" /></Link>
            </div> 
            <div className="card" >Crystals CLeansing and Regenerating
-            <Link to="/crystals" >
+            <Link to="/Crystals" >
                 <img   className="thumb1" id="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-ZS35-j1ASubzUFCsCuFKZBjBaQ6ZhLlB8XIXR3iNf8UTfkZ1nsKKzfexWg7wFbZFxg&usqp=CAU" alt="Crystals" /></Link>
            </div>
            <div className="card">Candles:Magical or Scented
@@ -26,12 +26,12 @@ class Products extends React.Component {
                 <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/71+6fqol6OL._AC_UL320_.jpg" alt="Candles" /></Link>
            </div>
            <div className="card">Suppliments:For A Better Inner Being
-            <Link to="/supplements"  >
+            <Link to="/Supplements"  >
             <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/51YSRYZ66sL._AC_UL320_.jpg" alt="Supplements" /></Link>
            </div>
            <div className="card">EMF:
            For A Better Inner Being
-            <Link to="/emf" >
+            <Link to="/Emf" >
                 <img   className="thumb1" id="pic" src="https://m.media-amazon.com/images/I/617uNoQtDwL._AC_UY218_.jpg" alt="EMF" /></Link>
            </div>
     </div>
