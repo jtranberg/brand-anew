@@ -130,9 +130,9 @@ position: relative;
     position: relative;
     align-items: center;
     justify-content: center;
-    
+    width: auto;
     margin-top: .3em;
-    width: 20rem;
+    padding: .5rem;
     color: #fff;
     background-color: #ffffff7a;
     border-radius: 8px;
