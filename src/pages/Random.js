@@ -32,8 +32,9 @@ export function FetchAPI() {
           <button  className="btn" onClick={apiGet}>
             Card of The Day
           </button>
+          <div className="statementBanner">
           <h1 className="statement">Only The First Card Counts.</h1>
-        
+        </div>
       </div>
     </div>
   );

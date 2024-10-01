@@ -1,7 +1,7 @@
 
 *{
     padding: 0;
-    margin: 0;
+    margin-top: 0;
     box-sizing: border-box;
 
 }
@@ -9,6 +9,12 @@
    width: 100vm;
 
   }
+  .statementBanner
+  {
+    margin-top: 2rem;
+    background: #ffffff15;
+  }
+  
 
 
 .container
@@ -18,12 +24,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;  
-     top: 2em;
-    height: 30em;
+     top: 7em;
+   
+    height: 35em;
+    margin: auto;
     margin-top: 4em;
-    box-shadow: 0 0 15px rgba(252, 252, 253, 0.418);
-    background: #0505f815;
-    padding-top: 3em;
+    box-shadow: 0 0 15px rgba(252, 252, 253, 0.205);
+    background: #afaff20d;
+    
 }
 @media screen and (max-width: 700px) {
     .container
@@ -88,10 +96,9 @@
 }
  .card:hover
 {
-   scale: 1.5;
-   margin-top: 10em;
-   
-} 
+   scale: 2;
+   margin-top: 11em;
+}
 
 @keyframes spin {
     0%{

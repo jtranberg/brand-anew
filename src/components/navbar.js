@@ -43,9 +43,9 @@ export default function Navbar() {
                         ref={toggleButtonRef}
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="5"
+                        strokeWidth="3"
                         stroke="rgba(32, 27, 2, 0.808)"
-                        d="m 65 15 l -27 51 l 62 -38 l -81 20 l 74 7 l -60 -31 l 42 47 l -10 -57 l -45 -1 l 0 68 l 50 0 a 1 1 0 0 0 -10 -67 l 1 66">
+                        d="m 70 15 l -27 51 l 62 -38 l -81 20 l 74 7 l -60 -31 l 42 47 l -10 -57 l -45 -1 l 0 68 l 50 0 a 1 1 0 0 0 -10 -67 l 1 66">
                     </path>
                 </svg>
             </button>
